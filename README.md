@@ -1,1 +1,1 @@
-# css-personal-site
+# training-css
