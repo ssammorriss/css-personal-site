@@ -1,0 +1,156 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Source Sans Pro", Sans-Serif;
+  background-color: #f7ebde;
+  color: #110B04;
+}
+
+hr {
+  border: dotted #162B25 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto 50px auto;
+}
+
+a {
+  margin: 10px 20px;
+  color: #d59041;
+  font-family: "Playfair Display", Serif;
+  font-style: italic;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #B83B3F;
+}
+
+h1 {
+  font-family: "Playfair Display", Serif;
+  margin: 50px auto 0px auto;
+  font-size: 3.5em;
+  font-style: italic;
+  color: #d59041;
+}
+
+h2 {
+  font-family: "Playfair Display", Serif;
+  font-size: 1.875em;
+  font-style: italic;
+}
+
+h3 {
+  font-family: "Playfair Display", Serif;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+h4 {
+  font-family: "Playfair Display", Serif;
+  font-size: 1.125em;
+  font-style: italic;
+}
+
+p {
+  line-height:2;
+}
+
+.btn {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #162B25;
+  font-family: "Playfair Display", Serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 10px 20px 10px 20px;
+  background-color: transparent;
+  border: solid #162B25 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #162B25;
+  border: solid #162B25 2px;
+  color: #f7ebde;
+  font-style: italic;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/*////////////////////////////// text classes //////////////////////////////*/
+
+.intro{
+  width:50%;
+  margin: auto;
+}
+
+.contact-message{
+  width:50%;
+  margin: 40px auto 60px auto;
+}
+
+.copyright {
+  color:#f7ebde;
+  font-size: .75em;
+  padding: 20px 0;
+}
+
+/*////////////////////////////// divs //////////////////////////////*/
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  padding: 10px;
+  text-align: left;
+}
+
+.top-container {
+  padding-top: 100px;
+  position: relative;
+  background-color: #5C2F39;
+  color: #d59041;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #5C2F39;
+  padding: 50px 0 20px;
+}
+
+
+/*////////////////////////////// images //////////////////////////////*/
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.gf-sticker-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.rollerskating-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
